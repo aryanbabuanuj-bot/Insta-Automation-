@@ -1,0 +1,10 @@
+name: Test Automation
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show message
+        run: echo "Your GitHub Automation is working!"
